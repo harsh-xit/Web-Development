@@ -1,0 +1,16 @@
+/* Write your code here: */
+h1,h2{
+    color:purple;
+}
+.box .done{
+    color:cyan;
+}
+.box .list{
+    color:burlywood;
+}
+li.done{
+    color:rgb(128, 0, 53);
+}
+ul p.done{
+    color:red;
+}

@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(223, 220, 245);
+}
+.gradient-background{
+    background: rgb(110,120,122);
+    background: linear-gradient(0deg, rgba(110,120,122,1) 22%, rgba(45,140,253,0.5775560224089635) 72%);
+    background-size: 180% 180%; 
+    animation: gradient-animation 18s ease infinite;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.role{
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: PTserif;
+}
+.name{
+    font-weight: 800;
+    font-size: 4rem;
+}
+.container{
+  background-color: lightskyblue;
+ 
+  width:100%;
+  margin: 0;
+}

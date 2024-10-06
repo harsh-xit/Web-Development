@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body{
+      background-color: beige;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container{
+      height:540px;
+      width: 540px;
+      display: grid;
+      background-color: black;
+      grid-template-rows: 325px 80px 110px 10px;
+      grid-template-columns: 250px 150px 100px 25px;
+      gap: 5px;
+    }
+    .red{
+      background-color: red;
+    }
+    .white1{
+      background-color: azure;
+      grid-column: 2/5;
+    }
+    .white2{
+      background-color: azure;
+      grid-row:2/4;
+    }
+    .white3{
+      background-color: azure;
+      grid-column: 2/4;
+      grid-row: 2/4;
+    }
+    .blue{
+      background-color: blue;
+      border-bottom: 10px solid black;
+    }
+    .white4{
+      background-color: azure;
+      grid-row: 3/5;
+    }
+    .white5{
+      background-color: azure;
+    }
+    .yellow{
+      background-color: yellow;;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="box red"></div>
+    <div class="box white1"></div>
+    <div class="box white2"></div>
+    <div class="box white3"></div>
+    <div class="box blue"></div>
+    <div class="box white4"></div>
+    <div class="box white5"></div>
+    <div class="box yellow"></div>
+    
+  </div>
+</body>
+
+</html>
